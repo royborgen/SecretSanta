@@ -37,7 +37,7 @@ logtimeformat = %%d-%%m-%%Y %%H:%%M:%%S
 
 ## stantas.txt
 Contains a list names and emails of everyone partisipating in Secret Santa. 
-The name of the file can be changed by editing secretsanta.txt and changing the value santaslist under general section. 
+The name of the file can be changed by editing **secretsanta.txt** and changing the value **santaslist** under the general section. 
 
 Example: 
 ```
@@ -51,7 +51,7 @@ Jessica,jessica@ourfamilydomain.com
 
 ## email.txt
 This file contains the mail content that will be sent to each of the santas.
-Filename and location can be changed by modifying emailcontent in secretsantas.conf
+Filename and location can be changed by modifying **emailcontent** in **secretsantas.conf**
 
 Default email.txt: 
 
@@ -67,13 +67,13 @@ Hope you have a fantastic Christmas.
 Yours truly,
 Santas little helper
 ```
-%santaNAme% is a placeholder for the name read from santas.txt
-%childname% is a placeholder for the name of the child that each santa has to buy a gift for.
+**%santaNAme%** is a placeholder for the name read from santas.txt
+**%childname%** is a placeholder for the name of the child that each santa has to buy a gift for.
 
 
 ## Logging
 There is an option to log to file. By defualt the script logs to santas.log in the same folder as the script is located. 
-Logging can be disabled by setting createlogfile = no in secretsanta.conf. 
+Logging can be disabled by setting **createlogfile = no** in **secretsanta.conf**. 
 Name and location of the configuration file can be changed by changing the values of logfile in secretsanta.conf 
 
 
@@ -90,7 +90,7 @@ Jessica <jessica@ourfamilydomain.com> --> **********
 Done!
 6 mails sent
 ```
-setting createlogfile = yes in secretsanta.conf will log the uncensored output to file. 
+setting **createlogfile = yes** in **secretsanta.conf** will log the uncensored output to file. 
 
 
 ## Requirements
