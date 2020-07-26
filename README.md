@@ -72,8 +72,9 @@ Santas little helper
 
 
 ## Logging
-There is an option to log to file. 
-This can be enabled by setting createlogfile = yes in the configuration file secretsanta.conf
+There is an option to log to file. By defualt the script logs to santas.log in the same folder as the script is located. 
+Logging can be disabled by setting createlogfile = no in secretsanta.conf. 
+Name and location of the configuration file can be changed by changing the values of logfile in secretsanta.conf 
 
 
 ## Example output
