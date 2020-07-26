@@ -1,0 +1,10 @@
+HO HO HO!
+Marry Christmas %santaName%!
+
+This years family secret santa has been picked and you are santa for %childName%.
+Please try not to overspend and keep within the agreed amount of 200 kr. 
+
+Hope you have a fantastic Christmas.
+
+Yours truly,
+Santas little helper
