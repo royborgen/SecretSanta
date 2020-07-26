@@ -77,7 +77,7 @@ Logging can be disabled by setting createlogfile = no in secretsanta.conf.
 Name and location of the configuration file can be changed by changing the values of logfile in secretsanta.conf 
 
 
-## Example output
+## Example of script output
 ```
 Sending mail...
 John <john@ourfamilydomain.com> --> **********
