@@ -51,6 +51,7 @@ Jessica,jessica@ourfamilydomain.com
 
 ## email.txt
 This file contains the mail content that will be sent to each of the santas.
+Filename and location can be changed by modifying emailcontent in secretsantas.conf
 
 Default email.txt: 
 
