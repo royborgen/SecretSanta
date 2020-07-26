@@ -18,7 +18,7 @@ Done!
 ```
 # secretsanta.conf
 This is the scripts configuration file. 
-If no configuration file exist, a default one will be created automaticly.
+If no configuration file exist, a default one will be created automatically.
 The file contains general, mailserver, email and logging settings. 
 
 ```
