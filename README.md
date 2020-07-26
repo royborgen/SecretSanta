@@ -78,6 +78,7 @@ Name and location of the configuration file can be changed by changing the value
 
 
 ## Example of script output
+Which santa gets what child is cencored in the output. 
 ```
 Sending mail...
 John <john@ourfamilydomain.com> --> **********
@@ -89,6 +90,7 @@ Jessica <jessica@ourfamilydomain.com> --> **********
 Done!
 6 mails sent
 ```
+setting createlogfile = yes in secretsanta.conf will log the uncensored output to file. 
 
 
 ## Requirements
