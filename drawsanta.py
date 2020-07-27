@@ -128,7 +128,7 @@ def readfile(filename):
             content = f.readlines()   
         
         #Checking that each line has the correct format 
-        #regex pathern that checks for random word characters followed by a command and a valid email. 
+        #regex pathern that checks for random characters followed by a command and a valid email. 
         pathern = re.compile('^.*,[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$')
         newcontent=[]
         for line in content: 
