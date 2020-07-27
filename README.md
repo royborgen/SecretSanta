@@ -34,6 +34,7 @@ createlogfile = yes
 logfile = santas.log
 logtimeformat = %%d-%%m-%%Y %%H:%%M:%%S
 ```
+username and password can be empty if **promptforauth = yes**
 
 ## stantas.txt
 Contains a list names and emails of everyone participating in Secret Santa. 
