@@ -38,7 +38,7 @@ def picksantas(santas):
     print("Sending mail...")
     
     i = 0
-    #Matching list1 with list2
+    #Matching santas
     failed = False
     while i < len(santas):
         santaComma = santas[i].find(",")
