@@ -1,12 +1,12 @@
 # SecretSanta
-SecretSanta reads a list of "Santas" and randomly matches each of the santas with a "child". The script then sends an email to each Santa informing them who their child is. The script is highly customizable, enabling you to easily configure the email content, server settings and sender information through a configuration file. 
+SecretSanta reads a list of "Santa's" and randomly matches each of the Santa's with a "child". The script then sends an email to each Santa informing them who their child is. The script is highly customizable, enabling you to easily configure the email content, server settings and sender information through a configuration file. 
 
 ## Usage
 The script is executed by running drawsanta.py
 
 # secretsanta.conf
 This is the scripts configuration file. 
-If no configuration file exist, a default one will be created automatically.
+If no configuration file exists, a default one will be created automatically.
 The file contains general, mailserver, email and logging settings. 
 
 ```
@@ -36,7 +36,7 @@ logtimeformat = %%d-%%m-%%Y %%H:%%M:%%S
 ```
 
 ## stantas.txt
-Contains a list names and emails of everyone partisipating in Secret Santa. 
+Contains a list names and emails of everyone participating in Secret Santa. 
 The name of the file can be changed by editing **secretsanta.txt** and changing the value **santaslist** under the general section. 
 
 Example: 
@@ -50,7 +50,7 @@ Jessica,jessica@ourfamilydomain.com
 ```
 
 ## email.txt
-This file contains the mail content that will be sent to each of the santas.
+This file contains the mail content that will be sent to each of the Santa's.
 Filename and location can be changed by modifying **emailcontent** in **secretsantas.conf**
 
 Default email.txt: 
@@ -68,17 +68,17 @@ Yours truly,
 Santas little helper
 ```
 **%santaNAme%** is a placeholder for the name read from santas.txt
-**%childname%** is a placeholder for the name of the child that each santa has to buy a gift for.
+**%childname%** is a placeholder for the name of the child that each Santa has to buy a gift for.
 
 
 ## Logging
-There is an option to log to file. By defualt the script logs to santas.log in the same folder as the script is located. 
+There is an option to log to file. By default the script logs to santas.log in the same folder as the script is located. 
 Logging can be disabled by setting **createlogfile = no** in **secretsanta.conf**. 
 Name and location of the configuration file can be changed by changing the values of logfile in secretsanta.conf 
 
 
 ## Example of script output
-Which santa gets what child is cencored in the output. 
+Which Santa gets what child is cencored in the output. 
 ```
 Sending mail...
 John <john@ourfamilydomain.com> --> **********
