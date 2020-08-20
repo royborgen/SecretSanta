@@ -1,5 +1,5 @@
 # SecretSanta
-SecretSanta reads a list of "Santa's" and randomly matches each of the Santa's with a "child". The script then sends an email to each Santa informing them who their child is. The script is highly customizable, enabling you to easily configure the email content, server settings and sender information through a configuration file. 
+SecretSanta reads a list of Santas(names and corresponding e-mails) and randomly matches each of the names with one of the other Santas on the list (a child). The script then sends an e-mail to each santa informing them who their child is. The script is highly customizable, enabling you to easily configure the email content, server settings and sender information through a configuration file. 
 
 ## Usage
 The script is executed by running drawsanta.py
@@ -38,9 +38,10 @@ username and password can be empty if **promptforauth = yes**
 
 ## stantas.txt
 Contains a list names and emails of everyone participating in Secret Santa. 
-The name of the file can be changed by editing **secretsanta.txt** and changing the value **santaslist** under the general section. 
+The name of the file can be changed by editing **secretsanta.conf** and changing the value of **santaslist** under the general section. 
 
-Example: 
+Example 
+stantas.txt uses the following format
 ```
 John,john@ourfamilydomain.com
 Mary,mary@ourfamilydomain.com
@@ -75,11 +76,11 @@ Santas little helper
 ## Logging
 There is an option to log to file. By default the script logs to santas.log in the same folder as the script is located. 
 Logging can be disabled by setting **createlogfile = no** in **secretsanta.conf**. 
-Name and location of the configuration file can be changed by changing the values of logfile in secretsanta.conf 
+Name and location of the configuration file can be changed by changing the values of **logfile** in **secretsanta.conf** 
 
 
 ## Example of script output
-Which Santa gets what child is cencored in the output. 
+When running the script each Stantas child is cencored in the output. 
 ```
 Sending mail...
 John <john@ourfamilydomain.com> --> **********
