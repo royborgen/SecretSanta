@@ -95,6 +95,19 @@ Done!
 setting **createlogfile = yes** in **secretsanta.conf** will log the uncensored output to file. 
 
 
+## resend.py
+Usage: resend [santa]...[OPTION]
+Resends Secret Santa e-mail to one or all santas in last drawing 
+
+    -a. --all       Resends mail to all stanas in last drawing
+    -v, --version   Outputs version information and exits
+        --help      Displays this help text
+
+Example:
+resend john         Resends email to john based on entry in logfile
+resend --all        Resends email to all santas in last drawing
+
+
 ## Requirements
 - Python 3 
 - Requests library installed 
