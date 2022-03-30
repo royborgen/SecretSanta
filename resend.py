@@ -6,8 +6,8 @@ import sys
 #a function that checks commandline arguments and displays help
 def checkarg(arg):
     version = "Secret Santa Resend 1.0"
-    helptxt = """Usage: resend [OPTION]... [TRACKING NUMBER]...
-    Resends Secret Santa e-mail to santas.
+    helptxt = """Usage: resend [OPTION]... [SANTA]...
+    Resends Secret Santa e-mail to one or all santas.
 
     -a. --all       Resends mail to all stanas in last drawing
     -v, --version   Outputs version information and exits
